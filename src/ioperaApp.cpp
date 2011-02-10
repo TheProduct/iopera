@@ -1,5 +1,6 @@
 #include "cinder/app/AppBasic.h"
 #include "cinder/gl/gl.h"
+#include "SimpleGUI.h"
 
 using namespace ci;
 using namespace ci::app;

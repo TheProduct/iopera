@@ -1,0 +1,162 @@
+// !$*UTF8*$!
+{
+	00BAE6590E7ED9C10018A608 /* ioperaApp.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 560}}";
+			sepNavSelRange = "{81, 0}";
+			sepNavVisRange = "{0, 533}";
+			sepNavWindowFrame = "{{350, 4}, {881, 874}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 74572410130440B80018D91A /* iopera */;
+		activeTarget = 8D1107260486CEB800E47090 /* iopera */;
+		codeSenseManager = 74572436130440BE0018D91A /* Code sense */;
+		executables = (
+			74572410130440B80018D91A /* iopera */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					993,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 319045816;
+			PBXWorkspaceStateSaveDate = 319045816;
+		};
+		perUserProjectItems = {
+			7457244A130445130018D91A /* XCBuildMessageTextBookmark */ = 7457244A130445130018D91A /* XCBuildMessageTextBookmark */;
+			7457244B130445130018D91A /* PBXTextBookmark */ = 7457244B130445130018D91A /* PBXTextBookmark */;
+			7457244D130445B00018D91A /* XCBuildMessageTextBookmark */ = 7457244D130445B00018D91A /* XCBuildMessageTextBookmark */;
+			7457244E130445B00018D91A /* PBXTextBookmark */ = 7457244E130445B00018D91A /* PBXTextBookmark */;
+			74572455130446630018D91A /* PBXTextBookmark */ = 74572455130446630018D91A /* PBXTextBookmark */;
+			7457246F130446F10018D91A /* PBXTextBookmark */ = 7457246F130446F10018D91A /* PBXTextBookmark */;
+		};
+		sourceControlManager = 74572435130440BE0018D91A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	74572410130440B80018D91A /* iopera */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = iopera;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	74572435130440BE0018D91A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	74572436130440BE0018D91A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	7457244A130445130018D91A /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "SimpleGUI.h: No such file or directory";
+		fRef = 00BAE6590E7ED9C10018A608 /* ioperaApp.cpp */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 2;
+		rType = 1;
+	};
+	7457244B130445130018D91A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* ioperaApp.cpp */;
+		name = "ioperaApp.cpp: 3";
+		rLen = 0;
+		rLoc = 81;
+		rType = 0;
+		vrLen = 279;
+		vrLoc = 0;
+	};
+	7457244D130445B00018D91A /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "SimpleGUI.h: No such file or directory";
+		fRef = 00BAE6590E7ED9C10018A608 /* ioperaApp.cpp */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 2;
+		rType = 1;
+	};
+	7457244E130445B00018D91A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* ioperaApp.cpp */;
+		name = "ioperaApp.cpp: 2";
+		rLen = 0;
+		rLoc = 81;
+		rType = 0;
+		vrLen = 289;
+		vrLoc = 0;
+	};
+	74572455130446630018D91A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* ioperaApp.cpp */;
+		name = "ioperaApp.cpp: 3";
+		rLen = 0;
+		rLoc = 79;
+		rType = 0;
+		vrLen = 531;
+		vrLoc = 0;
+	};
+	7457246F130446F10018D91A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* ioperaApp.cpp */;
+		name = "ioperaApp.cpp: 3";
+		rLen = 0;
+		rLoc = 81;
+		rType = 0;
+		vrLen = 533;
+		vrLoc = 0;
+	};
+	8D1107260486CEB800E47090 /* iopera */ = {
+		activeExec = 0;
+		executables = (
+			74572410130440B80018D91A /* iopera */,
+		);
+	};
+}
