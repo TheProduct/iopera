@@ -19,6 +19,18 @@
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
 		53E3CDFC0E86099300238D2B /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E3CDFB0E86099300238D2B /* Carbon.framework */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		CD5EFEBE130455DC009A7CFA /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 00CCAF14116A9FEE008396D5 /* CinderApp.icns */; };
+		CD5EFEC0130455DC009A7CFA /* ioperaApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00BAE6590E7ED9C10018A608 /* ioperaApp.cpp */; };
+		CD5EFEC2130455DC009A7CFA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		CD5EFEC3130455DC009A7CFA /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091D8F80E81B9330029341E /* OpenGL.framework */; };
+		CD5EFEC4130455DC009A7CFA /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E3CDFB0E86099300238D2B /* Carbon.framework */; };
+		CD5EFEC5130455DC009A7CFA /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
+		CD5EFEC6130455DC009A7CFA /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
+		CD5EFEC7130455DC009A7CFA /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0097E3E40F3E9819005A4392 /* QuickTime.framework */; };
+		CD5EFEC8130455DC009A7CFA /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
+		CD5EFEC9130455DC009A7CFA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
+		CD5EFECA130455DC009A7CFA /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
+		CD5EFECB130455DC009A7CFA /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +52,9 @@
 		53E3CDFB0E86099300238D2B /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* iopera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iopera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5EFEB613045396009A7CFA /* Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test-Info.plist"; sourceTree = "<group>"; };
+		CD5EFECF130455DC009A7CFA /* iopera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iopera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5EFED1130455DC009A7CFA /* Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info copy.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +72,23 @@
 				00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */,
 				00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */,
 				00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5EFEC1130455DC009A7CFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5EFEC2130455DC009A7CFA /* Cocoa.framework in Frameworks */,
+				CD5EFEC3130455DC009A7CFA /* OpenGL.framework in Frameworks */,
+				CD5EFEC4130455DC009A7CFA /* Carbon.framework in Frameworks */,
+				CD5EFEC5130455DC009A7CFA /* CoreVideo.framework in Frameworks */,
+				CD5EFEC6130455DC009A7CFA /* QTKit.framework in Frameworks */,
+				CD5EFEC7130455DC009A7CFA /* QuickTime.framework in Frameworks */,
+				CD5EFEC8130455DC009A7CFA /* Accelerate.framework in Frameworks */,
+				CD5EFEC9130455DC009A7CFA /* AudioToolbox.framework in Frameworks */,
+				CD5EFECA130455DC009A7CFA /* AudioUnit.framework in Frameworks */,
+				CD5EFECB130455DC009A7CFA /* CoreAudio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				8D1107320486CEB800E47090 /* iopera.app */,
+				CD5EFECF130455DC009A7CFA /* iopera.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,6 +147,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				CD5EFEB613045396009A7CFA /* Test-Info.plist */,
 			);
 			name = iopera;
 			sourceTree = "<group>";
@@ -131,6 +165,7 @@
 			children = (
 				8D1107310486CEB800E47090 /* Info.plist */,
 				00CCAF14116A9FEE008396D5 /* CinderApp.icns */,
+				CD5EFED1130455DC009A7CFA /* Info copy.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -165,6 +200,24 @@
 			productReference = 8D1107320486CEB800E47090 /* iopera.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CD5EFEBC130455DC009A7CFA /* viewports */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5EFECC130455DC009A7CFA /* Build configuration list for PBXNativeTarget "viewports" */;
+			buildPhases = (
+				CD5EFEBD130455DC009A7CFA /* Resources */,
+				CD5EFEBF130455DC009A7CFA /* Sources */,
+				CD5EFEC1130455DC009A7CFA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = viewports;
+			productInstallPath = "$(HOME)/Applications";
+			productName = iopera;
+			productReference = CD5EFECF130455DC009A7CFA /* iopera.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -178,6 +231,7 @@
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* iopera */,
+				CD5EFEBC130455DC009A7CFA /* viewports */,
 			);
 		};
 /* End PBXProject section */
@@ -191,6 +245,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CD5EFEBD130455DC009A7CFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5EFEBE130455DC009A7CFA /* CinderApp.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -199,6 +261,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				00BAE65A0E7ED9C10018A608 /* ioperaApp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5EFEBF130455DC009A7CFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5EFEC0130455DC009A7CFA /* ioperaApp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +349,48 @@
 			};
 			name = Release;
 		};
+		CD5EFECD130455DC009A7CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iopera_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "Info copy.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
+				PRODUCT_NAME = iopera;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD5EFECE130455DC009A7CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iopera_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "Info copy.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
+				PRODUCT_NAME = iopera;
+				STRIP_INSTALLED_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -296,6 +408,15 @@
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
 				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5EFECC130455DC009A7CFA /* Build configuration list for PBXNativeTarget "viewports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5EFECD130455DC009A7CFA /* Debug */,
+				CD5EFECE130455DC009A7CFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
