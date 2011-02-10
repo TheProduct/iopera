@@ -12,9 +12,12 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 74572410130440B80018D91A /* iopera */;
 		activeTarget = 8D1107260486CEB800E47090 /* iopera */;
+		addToTargets = (
+		);
 		codeSenseManager = 74572436130440BE0018D91A /* Code sense */;
 		executables = (
 			74572410130440B80018D91A /* iopera */,
+			7457249F130455300018D91A /* iopera copy */,
 		);
 		perUserDictionary = {
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
@@ -24,7 +27,7 @@
 					20,
 					993,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -37,6 +40,28 @@
 					PBXFileDataSource_Errors_ColumnID,
 					PBXFileDataSource_Warnings_ColumnID,
 					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					953,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
 			PBXPerProjectTemplateStateSaveDate = 319045816;
@@ -152,6 +177,46 @@
 		rType = 0;
 		vrLen = 533;
 		vrLoc = 0;
+	};
+	74572488130455220018D91A /* ioperaApp_2.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 560}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 545}";
+		};
+	};
+	7457248B130455300018D91A /* iopera copy */ = {
+		activeExec = 0;
+		executables = (
+			7457249F130455300018D91A /* iopera copy */,
+		);
+	};
+	7457249F130455300018D91A /* iopera copy */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "iopera copy";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
 	};
 	8D1107260486CEB800E47090 /* iopera */ = {
 		activeExec = 0;
