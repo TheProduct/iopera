@@ -1,3 +1,5 @@
 /xcode/build/
 /.DS_Store
 /xcode
+
+src/.DS_Store
